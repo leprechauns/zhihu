@@ -1,0 +1,180 @@
+body,p,div{
+    color: #555555;
+    font-size: 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    height: 125px;
+    margin-top: 60px;
+}
+#header .index-header{
+    width: 300px;
+    height: 122px;
+    margin: 0 auto;
+}
+#header .index-header h1{
+    width: 160px;
+    height: 74px;
+    margin: 0 auto;
+    background: url(../img/logo.png) no-repeat;
+}
+#header .index-header .sub{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 30px 0 20px;
+}
+.center{
+    width: 300px;
+    height: 392px;
+    margin: 20px auto;
+}
+.center .index-tab{
+    width: 144px;
+    height: 35px;
+    margin:0 auto;
+
+}
+.center .index-tab .reg,.center .index-tab .log{
+    width: 72px;
+    height: 35px;
+    font-size: 18px;
+    text-align: center;
+    color:#999;
+}
+.center .index-tab .reg{
+    margin: auto 20px;
+}
+.center .index-tab a:active{
+    color:rgb(15,136,235);
+}
+.center .index-tab a:hover{
+    color: #555555;;
+}
+.center .index-tab .line{
+    position: relative;
+    top: 5px;
+    left: 18px;
+    /*left: 77px;*/
+    display: block;
+    width: 40px;
+    border: 1.8px solid rgb(15,136,235);
+
+}
+
+#reg{
+    width: 298px;
+    /*height: 142px;*/
+    /*border:1px solid #e7eaf1;*/
+    /*border-radius: 3px;*/
+}
+.center .login-box{
+    margin-top: 15px;
+}
+.center .login-box .inputs{
+    display: block;
+    width: 300px;
+    height: 50px;
+    color: #555555;
+    text-align: left;
+    border: 1px solid #e7eaf1;
+    overflow: hidden;
+    background: #fff;
+    margin: 0 auto;
+}
+.center .login-box .reg-name{
+    border-bottom:none;
+}
+.center .login-box .reg-tel{
+    border-bottom: none;
+}
+#reg p{
+    color: #999999;
+    margin-top: 21px;
+    text-align: center;
+    font-size: 13px;
+}
+#reg .pact{
+    color: rgb(15,136,235);
+}
+#reg .agree{
+    margin-bottom: 30px;
+}
+#log p a{
+    color: #999999;
+    margin-top: 21px;
+    font-size: 14px;
+}
+#log p .telephone{
+    color: rgb(15,136,235);
+}
+#log p .non-log{
+    padding-left: 146px;
+    color: #555555;
+}
+#log .social-log{
+    margin-top: 20px;
+}
+.center .login-box .log-tel{
+    border-bottom:none;
+}
+.center .login-box .log-pass{
+    border-bottom: none;
+}
+.center .login-box input{
+    width: 268px;
+    height: 38px;
+    margin: 1px 10px;
+    border: none;
+
+}
+.center .login-box button{
+    width: 300px;
+    height: 41px;
+    color:white;
+    background: rgb(15,136,235);
+    border:1px solid rgb(15,136,235);
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 18px;
+    font-size: 15px;
+}
+#log .other-log{
+    margin: 20px auto;
+}
+.download button{
+    width: 300px;
+    height: 41px;
+    color:rgb(15,136,235);
+    border:1px solid rgb(15,136,235);
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 15px;
+    background: #fff;
+}
+footer,footer div{
+    display: block;
+    font-size: 12px;
+    line-height: 21px;
+    color: #999999;
+    text-align: center;
+    margin: 0 auto;
+
+}
+footer .dot{
+    margin: 0 3px;
+}
+footer a{
+    color: #999999;
+}
+footer a:hover{
+    text-decoration: underline;
+}

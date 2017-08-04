@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>知乎</title>
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.js" type="text/javascript"></script>
+    <script src="js/jquery.validate.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/jquery.form.js"></script>
+    <script type="text/javascript" src="js/jquery.cookie.js"></script>
+    <script src="ueditor/ueditor.config.js" type="text/javascript"></script>
+    <script src="ueditor/ueditor.all.js" type="text/javascript"></script>
+    <script src="ueditor/lang/zh-cn/zh-cn.js" type="text/javascript"></script>
+    <script src="js/index.js" type="text/javascript"></script>
+    <link href="css/jquery-ui.css" type="text/css" rel="stylesheet">
+    <link href="css/zhihu-style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <div class="header-inner">
+        <div class="header-nav">
+            <a href="#" class="a-first">知乎</a>
+            <a href="#" class="a is-active">首页</a>
+            <a href="#" class="a">发现</a>
+            <a href="#" class="a">话题</a>
+            <div class="search">
+                <input type="text" class="input" placeholder="搜索你感兴趣的内容...">
+            </div>
+            <button class="button" aria-label="搜索">提问</button>
+            <div class="header-user">
+                <img src="img/person.jpg" />
+                <img src="img/message.png" />
+                <img src="img/bell.png" />
+            </div>
+        </div>
+    </div>
+</header>
+
+<form id="question-show" action="123.html" style="display: none">
+<div class="question-show" >
+    <h3>写下你的问题</h3>
+    <p class="sub-title">描述精确的问题更易得到解答</p>
+    <div class="caption">
+        <textarea class="question-title" name="title" placeholder="问题标题"></textarea>
+    </div>
+    <p class="add-topic">
+        <input class="topic" name="point" placeholder="添加话题" />
+    </p>
+    <div class="descriptive">
+        <p>问题描述（可选）：</p>
+        <div class="ueditor-container">
+            <textarea class="detailed" id="myEditor"  name="myEditor"></textarea>
+        </div>
+    </div>
+    <div class="quiz">
+        <div class="checkOne">
+            <input type="checkbox" id="anonymous" class="checkbox" />
+            <label for="anonymous" class="question-anonymous"></label>
+        </div>
+        <span class="anonymous-text">匿名提问</span>
+    </div>
+</div>
+</form>
+
+<main class="main-content">
+    <div class="container">
+        <div class="left">
+        <div class="left-top">
+            <a href="#" class="question"><img src="img/question.png" />提问</a>
+            <a href="#" class="answer"><img src="img/answer.png"/>回答</a>
+            <a href="https://zhuanlan.zhihu.com/write" class="write" target="_blank"><img src="img/write.png" />写文章</a>
+            <a href="#" class="outline">草稿</a>
+
+        </div>
+             <div class="content">
+
+
+            </div>
+
+
+        </div>
+        <div class="right">
+            <div class="right-top">
+                <a href="#"><img src="img/live.png" /><span class="live">Live</span></a>
+                <a href="#"><img src="img/book.png" /><span class="book">书店</span></a>
+                <a href="#"><img src="img/round.png" /><span class="round">圆桌</span></a>
+                <a href="#"><img src="img/column.png" /><span class="column">专栏</span></a>
+                <a href="#"><img src="img/money.png" /><span class="money">付费咨询</span></a>
+            </div>
+            <div class="right-center">
+                <a href="#" class="center a1"><img src="img/collect.png"><span class="sidebar collect">收藏</span></a>
+                <a href="#" class="center a2"><img src="img/my-follow.png"><span class="sidebar my-follow">我关注的问题</span></a>
+                <a href="#" class="center a3"><img src="img/my-invite.png"><span class="sidebar my-invite">我的邀请</span></a>
+                <a href="#" class="center a4"><img src="img/service.png"><span class="sidebar service">社区服务中心</span></a>
+                <a href="#" class="center a5"><img src="img/copyright.png"><span class="sidebar copyright">版权服务中心</span></a>
+                <a href="#" class="center a6"><img src="img/editor.png"><span class="sidebar editor">公共编辑动态</span></a>
+            </div>
+            <div class="right-bottom">
+                <p><a href="#">刘看山 <span> · </span></a><a href="#"> 知乎指南 <span> · </span></a><a href="#"> 知乎协议 <span> · </span></a><a href="#"> 应用 <span> · </span></a><a href="#"> 工作 <span></span></a></p>
+                <p><a href="#">侵犯举报 <span> · </span></a><a href="#">网上有害信息举报区</a></p>
+                <p>违法和不良信息举报：010-82716601</p>
+                <p><a href="#">联系我们 </a><span>© 2017知乎</span></p>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</main>
+
+
+</body>
+</html>

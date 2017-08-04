@@ -1,0 +1,225 @@
+html{
+    overflow-x: hidden;
+}
+body,p{
+    color: #555555;
+    font-size: 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+/*知乎标题信息*/
+#header{
+    height: 125px;
+    margin-top: 60px;
+}
+#header .index-header{
+    width: 300px;
+    height: 122px;
+    margin: 0 auto;
+}
+#header .index-header h1{
+    width: 160px;
+    height: 74px;
+    margin: 0 auto;
+    background: url(../img/logo.png) no-repeat;
+}
+#header .index-header .sub{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 30px 0 20px;
+}
+/*注册、登录信息*/
+.center .center-content{
+    width: 300px;
+    margin: 20px auto;
+}
+.center .index-tab{
+    width: 144px;
+    height: 35px;
+    margin:0 auto;
+
+}
+.center .index-tab .reg,.center .index-tab .log{
+    width: 72px;
+    height: 35px;
+    font-size: 18px;
+    text-align: center;
+    color:#999;
+}
+.center .index-tab .reg{
+    margin: auto 20px;
+    color:rgb(15,136,235);
+}
+.center .index-tab a:active{
+    color:rgb(15,136,235);
+}
+.center .index-tab a:hover{
+    color: #555555;;
+}
+.center .index-tab .line{
+    position: relative;
+    top: 5px;
+    left: 18px;
+    /*left: 77px;*/
+    display: block;
+    width: 40px;
+    border: 1.8px solid rgb(15,136,235);
+
+}
+/*提交信息部分*/
+.center .box{
+    margin-top: 15px;
+}
+/*所有input的共同设计*/
+.center .box .inputs{
+    display: block;
+    width: 300px;
+    height: 50px;
+    color: #555555;
+    text-align: left;
+    border: 1px solid #e7eaf1;
+    background: #fff;
+    margin: 0 auto;
+}
+.center .box .reg-name{
+    border-bottom:none;
+}
+.center .box .reg-tel{
+    border-bottom: none;
+}
+#reg p{
+    color: #999999;
+    margin-top: 21px;
+    text-align: center;
+    font-size: 13px;
+}
+#reg .pact{
+    color: rgb(15,136,235);
+}
+#reg .agree{
+    margin-bottom: 30px;
+}
+#log p a{
+    color: #999999;
+    margin-top: 21px;
+    font-size: 14px;
+}
+#log p .telephone{
+    color: rgb(15,136,235);
+}
+#log p .non-log{
+    padding-left: 146px;
+    color: #555555;
+}
+#log .social-log{
+    margin-top: 20px;
+}
+.center .box .log-tel{
+    border-bottom:none;
+}
+.center .box .log-pass{
+    border-bottom: none;
+}
+.center .box input{
+    width: 268px;
+    height: 38px;
+    margin: 5px 10px;
+    border: none;
+    overflow: hidden;
+    color: #555;
+    text-align: left;
+}
+/*placeholder字体颜色设计*/
+::-moz-placeholder{
+    color: #aebdc9;
+}
+:-moz-placeholder{
+    color:#aebdc9;
+}
+input::-webkit-input-placeholder{
+    color: #aebdc9;
+}
+
+/*注册、提交按钮的样式*/
+.center .box button{
+   width: 300px;
+    height: 41px;
+    color:white;
+    background: rgb(15,136,235);
+    border:1px solid rgb(15,136,235);
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 18px;
+    font-size: 15px;
+}
+#reg .reg-on:hover{
+    opacity: 0.8;
+}
+#log .log-on:hover{
+    opacity: 0.8;
+}
+#log .other-log{
+    margin: 20px auto;
+}
+/*下载按钮*/
+.download button{
+    width: 300px;
+    height: 41px;
+    color:rgba(15,136,235,0.8);
+    border:1px solid rgba(15,136,235,0.8);
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 15px;
+    background: #fff;
+}
+/*底部信息*/
+footer{
+    height: 100px;
+}
+footer,footer div{
+    display: block;
+    font-size: 12px;
+    line-height: 21px;
+    color: #aebdc9;
+    text-align: center;
+    margin: 0 auto;
+
+}
+footer .dot{
+    margin: 0 3px;
+}
+footer a{
+    color: #aebdc9;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer .net .company{
+    display: block;
+    width: 600px;
+    border-top: 1px solid #e7eaf1;
+    text-align: center;
+    margin: 20px auto;
+}
+footer .net img{
+    position: relative;
+    left: -5px;
+    top: 6px;
+}
+/*注册、提交表单错误处理信息*/
+.errors{
+    color: #c33;
+   display: block;
+    position: absolute;
+    margin: 12px 180px;
+    text-align: right;
+}
