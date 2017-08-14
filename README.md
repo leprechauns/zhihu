@@ -16,7 +16,7 @@
 MySQL
 ### 网站界面
 注册、登录<br/>
-![注册、登录界面](http://localhost:8080/zhihu_copy/images/reg.png)
+![注册、登录界面](http://localhost:8080/zhihu_copy/images/)
 
 
 
