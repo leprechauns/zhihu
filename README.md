@@ -15,8 +15,18 @@
 ## 数据库
 MySQL
 ### 网站界面
-注册、登录<br/>
-![注册、登录界面](http://localhost:8080/zhihu_copy/images/)
+#### 注册、登录
+
+![](https://github.com/leprechauns/images/raw/master/zhihu/reg.png)<br/>
+
+#### 首页
+![](https://github.com/leprechauns/images/raw/master/zhihu/home_page.png)<br/>
+#### 提问、回答
+![](https://github.com/leprechauns/images/raw/master/zhihu/question.png)<br/>
+#### 评论
+![](https://github.com/leprechauns/images/raw/master/zhihu/comment.png)<br/>
+
+
 
 
 
